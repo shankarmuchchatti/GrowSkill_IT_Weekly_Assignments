@@ -52,18 +52,17 @@ public class Assignment2 {
 		car1.run();
 		car1.displayCompany();
 		car1.engineType();
-		
+
 		String brand = "Hyundai";
 		StringBuilder sb = new StringBuilder(brand);
-		System.out.println("Reversed : "+sb.reverse());
-		String brand1 = brand.replace("y","*");
-		brand1=brand1.replace("u", "*");
+		System.out.println("Reversed : " + sb.reverse());
+		String brand1 = brand.replace("y", "*");
+		brand1 = brand1.replace("u", "*");
 		brand1 = brand1.replace("a", "*");
 		brand1 = brand1.replace("i", "*");
-		System.out.println("Replaced : "+brand1);
-		
-		System.out.println("Equals Hyundai : "+brand.equalsIgnoreCase("hyundai"));
-		
+		System.out.println("Replaced : " + brand1);
+
+		System.out.println("Equals Hyundai : " + brand.equalsIgnoreCase("hyundai"));
 
 	}
 
